@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Credit Card Validation</title>
+    <link rel="stylesheet" href="cc_validation.css">
+    <script src="cc_validation.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h1>Credit Card Validation</h1>
+    <label for="cc1">AMERICAN EXPRESS CREDIT CARD NO:</label><br>
+    <input id="cc1" type="text">
+    <input type="submit" value="validate" onclick="return creditvali1()"><br>
+    <p>**15 digits number starting with 34 or 37**</p><br><br>
+
+    <label for="cc3">DISCOVER CREDIT CARD NO:</label><br>
+    <input id="cc3" type="text">
+    <input type="submit" value="validate" onclick="return creditvali3()"><br>
+    <p>**16digit or 15 digit starting with 6011 or 5**</p><br><br>
+
+    <label for="cc5">VISA CREDIT CARD NO:</label><br>
+    <input id="cc5" type="text">
+    <input type="submit" value="validate" onclick="return creditvali5()"><br>
+    <p>**13 or 16 digits starting with 4**</p>
+  </body>
+</html>
